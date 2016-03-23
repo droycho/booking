@@ -1,0 +1,18 @@
+#receipt {
+  display: none;
+}
+
+ul {
+    list-style: none;
+}
+#name {
+  font-weight: bold;
+}
+
+.address {
+  font-weight: bold;
+}
+
+li {
+  font-style: italic;
+}

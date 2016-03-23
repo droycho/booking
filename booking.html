@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Set Appointment</title>
+    <h1>Set Appointment</h1>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="appointmentform">Enter Your Information
+      </h2>
+
+        <form id="appointment">
+          <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="startTime">Start of appointment:</label>
+            <input id="startTime" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="endTime">End of appointment:</label>
+            <input id="endTime" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Confirm your appointment.</button>
+        </form>
+
+        <div id="receipt">
+          <h3>Thank you for scheduling your appointment with us.</h3>
+          <p>
+            Dear <span class="firstname"></span> <span class="lastname"></span>,</br> Thank your for scheduling your appointment to see Dr. Watson. We look forward to seeing you soon. If you need to reschedule, please let us know.</br>See below for your appointment confirmation page.</br>Thanks!
+          </p>
+          <h4>Appointment Details:</h4>
+          <ul>
+            <li id="name">Name:</li>
+              <li><span class="firstname"></span> <span class="lastname"></span></li>
+            <li class="address">Address:</li>
+              <li><span class="street"></span></li>
+              <li><span class="city"></span>, <span class="state"></span></li>
+              <li><span class="zipcode"></span></li>
+          </ul>
+        </div>
+    </div>
+  </body>
+</html>
