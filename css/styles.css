@@ -1,4 +1,4 @@
-#receipt {
+#confirmation {
   display: none;
 }
 
@@ -9,7 +9,10 @@ ul {
   font-weight: bold;
 }
 
-.address {
+#appointmentDate {
+  font-weight: bold;
+}
+#appointmentTime {
   font-weight: bold;
 }
 

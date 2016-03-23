@@ -23,21 +23,21 @@
             <input id="lastname" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="date">Date:</label>
-            <input id="date" class="form-control" type="text">
+            <label for="date">Date of appointment:</label>
+            <input id="date" class="form-control" type="date">
           </div>
           <div class="form-group">
             <label for="startTime">Start of appointment:</label>
-            <input id="startTime" class="form-control" type="text">
+            <input id="startTime" class="form-control" type="time">
           </div>
           <div class="form-group">
             <label for="endTime">End of appointment:</label>
-            <input id="endTime" class="form-control" type="text">
+            <input id="endTime" class="form-control" type="time">
           </div>
           <button type="submit" class="btn">Confirm your appointment.</button>
         </form>
 
-        <div id="receipt">
+        <div id="confirmation">
           <h3>Thank you for scheduling your appointment with us.</h3>
           <p>
             Dear <span class="firstname"></span> <span class="lastname"></span>,</br> Thank your for scheduling your appointment to see Dr. Watson. We look forward to seeing you soon. If you need to reschedule, please let us know.</br>See below for your appointment confirmation page.</br>Thanks!
@@ -46,10 +46,10 @@
           <ul>
             <li id="name">Name:</li>
               <li><span class="firstname"></span> <span class="lastname"></span></li>
-            <li class="address">Address:</li>
-              <li><span class="street"></span></li>
-              <li><span class="city"></span>, <span class="state"></span></li>
-              <li><span class="zipcode"></span></li>
+            <li id="appointmentDate">Appointment date:</li>
+              <li><span class="date"></span></li>
+            <li id="appointmentTime">Time of appointment:</li>
+              <li>Start: <span class="startTime"></span> - End: <span class="endTime"></span></li>
           </ul>
         </div>
     </div>

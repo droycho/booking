@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".startTime").text(startTimeInput);
     $(".endTime").text(endTimeInput);
 
-    $("#receipt").show();
+    $("#confirmation").show();
 
     event.preventDefault();
   });
